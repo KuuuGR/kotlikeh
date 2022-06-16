@@ -39,13 +39,13 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="time" translatesAutoresizingMaskIntoConstraints="NO" id="OgN-lc-vzV">
                                                 <rect key="frame" x="51" y="0.0" width="105" height="92"/>
                                             </imageView>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="time [s]" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PNS-DV-jL8">
+                                            <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="time [s]" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PNS-DV-jL8">
                                                 <rect key="frame" x="5" y="97" width="197" height="46"/>
                                                 <color key="backgroundColor" systemColor="placeholderTextColor"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
                                         </subviews>
                                         <constraints>
@@ -61,13 +61,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NAp-CP-SYt" userLabel="WeightView">
                                         <rect key="frame" x="213" y="0.0" width="201" height="184"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="velocity [l]" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yNE-nj-v5c">
+                                            <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="velocity [l]" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yNE-nj-v5c">
                                                 <rect key="frame" x="5" y="97" width="191" height="46"/>
                                                 <color key="backgroundColor" systemColor="placeholderTextColor"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weight" translatesAutoresizingMaskIntoConstraints="NO" id="oYl-HM-yco">
                                                 <rect key="frame" x="13" y="0.0" width="175" height="92"/>
@@ -99,13 +99,13 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="temperature" translatesAutoresizingMaskIntoConstraints="NO" id="Lkx-9K-AGh">
                                                 <rect key="frame" x="39" y="0.0" width="129" height="92"/>
                                             </imageView>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="start temperature" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jGt-18-2Z5">
+                                            <textField opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="start temperature" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jGt-18-2Z5">
                                                 <rect key="frame" x="5" y="97" width="197" height="46"/>
                                                 <color key="backgroundColor" systemColor="placeholderTextColor"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
                                         </subviews>
                                         <constraints>
@@ -124,13 +124,13 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="temperature" translatesAutoresizingMaskIntoConstraints="NO" id="aTB-Mo-LfB">
                                                 <rect key="frame" x="36" y="0.0" width="129" height="92"/>
                                             </imageView>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="end temperature" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AV8-2n-U7f">
+                                            <textField opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="end temperature" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AV8-2n-U7f">
                                                 <rect key="frame" x="5" y="97" width="191" height="46"/>
                                                 <color key="backgroundColor" systemColor="placeholderTextColor"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
                                         </subviews>
                                         <constraints>
@@ -156,19 +156,18 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="power" translatesAutoresizingMaskIntoConstraints="NO" id="TZJ-PU-VjG">
                                         <rect key="frame" x="13" y="0.0" width="175" height="92"/>
                                     </imageView>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="power [W]" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3r0-lv-9gq">
+                                    <textField opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="power [W]" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3r0-lv-9gq">
                                         <rect key="frame" x="0.0" y="92" width="201" height="46"/>
                                         <color key="backgroundColor" systemColor="placeholderTextColor"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="3r0-lv-9gq" firstAttribute="top" secondItem="TZJ-PU-VjG" secondAttribute="bottom" id="EbI-ue-Wlz"/>
                                     <constraint firstItem="TZJ-PU-VjG" firstAttribute="centerX" secondItem="PWl-V1-W9I" secondAttribute="centerX" id="GZb-pZ-d6T"/>
-                                    <constraint firstAttribute="trailing" secondItem="3r0-lv-9gq" secondAttribute="trailing" id="T9X-K5-ktb"/>
                                     <constraint firstItem="3r0-lv-9gq" firstAttribute="leading" secondItem="PWl-V1-W9I" secondAttribute="leading" id="c3o-sI-iua"/>
                                     <constraint firstItem="3r0-lv-9gq" firstAttribute="height" secondItem="PWl-V1-W9I" secondAttribute="height" multiplier="0.25" id="qja-gc-2oz"/>
                                     <constraint firstItem="3r0-lv-9gq" firstAttribute="centerX" secondItem="PWl-V1-W9I" secondAttribute="centerX" id="rDZ-Lb-AGs"/>
@@ -200,6 +199,13 @@
                             <constraint firstItem="hLN-Qx-BZx" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vTe-kH-0d1"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outletCollection property="DataTextFields" destination="PNS-DV-jL8" collectionClass="NSMutableArray" id="hLa-Z1-Qp8"/>
+                        <outletCollection property="DataTextFields" destination="yNE-nj-v5c" collectionClass="NSMutableArray" id="4rM-5k-zYU"/>
+                        <outletCollection property="DataTextFields" destination="jGt-18-2Z5" collectionClass="NSMutableArray" id="150-SS-LI2"/>
+                        <outletCollection property="DataTextFields" destination="AV8-2n-U7f" collectionClass="NSMutableArray" id="k3B-EI-C5K"/>
+                        <outletCollection property="DataTextFields" destination="3r0-lv-9gq" collectionClass="NSMutableArray" id="J7R-J0-c1Z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
