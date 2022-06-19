@@ -28,7 +28,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
         guard returnEmptyField() != 5 else {
             return
         }
-        DataTextFields[returnEmptyField()].text = String(returnEmptyField())
+        if checkForZeroesFields() == false {
+            DataTextFields[returnEmptyField()].text = String(returnEmptyField()) //show value of the empty textfield
+        }
     }
     
 
@@ -55,6 +57,21 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }
         
     }
+    
+    func checkForZeroesFields() -> Bool {
+        for i in 0..<5 {
+            if DataTextFields[i].text != "" {
+                let cellValue = Int(DataTextFields[i].text!)
+                if cellValue == 0 {
+                    return true
+                }
+            }
+        }
+        return false
+        
+    }
+    
+    
     
     //MARK: - UITextField Delegates
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
